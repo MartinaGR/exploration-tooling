@@ -107,6 +107,12 @@ These are in the `scripts/` directory.
 - `R/`: reusable R code for forecasters, targets, and data processing functions
 - `scripts/`: entry-points for target pipelines, one-off data processing
   scripts, and report generation scripts
+- `docs/`: short guides, including flu forecasting details in
+  `docs/flu_forecasting_overview.md`, an índice de archivos clave en
+  `docs/code_map_es.md`, un catálogo de datos/unidades en
+  `docs/data_catalog_es.md`, una guía de extracción de
+  hospitalizaciones desde healthdata.gov en `docs/healthdata_extraction_es.md`,
+  y código listo para correr los modelos en `docs/run_models_es.md`
 - `tests/`: package tests
 - `covid_hosp_explore/` and `scripts/covid_hosp_explore.R`: a `targets` project for exploring covid hospitalization forecasters
 - `flu_hosp_explore/` and `scripts/flu_hosp_explore.R`: a `targets` project for exploring flu hospitalization forecasters
